@@ -12,3 +12,10 @@
   __behavior__ : 振る舞いやAIなどを"敵の名前"か"種類名"のフォルダ下に保存
 
  item : アイテム系 アイテムの機能など
+
+
+# Tag名:
+
+ 先頭大文字のタグ(例: Entity) タグの種類 基本EntityかEnemy
+
+ 小文字.小文字(例: entity.liquid_mana) それの名前(id)
