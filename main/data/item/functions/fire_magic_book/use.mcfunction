@@ -1,0 +1,1 @@
+#> item:fire_magic_book/use
