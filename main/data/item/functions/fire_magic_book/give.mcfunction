@@ -1,3 +1,3 @@
 #> item:fire_magic_book/give
 
-give @p crossbow{ItemData:{MagicBook:1b,Id:"fire_magic_book",ManaRequired:1b,RequiredManaAmount:200},display:{Name:'{"text":"火の魔法の本","color":"white","bold":false,"italic":false}'},HideFlags:38,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-127,Operation:0,UUID:[I;-975809435,407260728,-1676960922,-108240580]}],Enchantments:[{id:"minecraft:quick_charge",lvl:255s}]} 1
+give @p crossbow{ItemData:{MagicBook:1b,Id:"fire_magic_book",ManaRequired:1b,RequiredManaAmount:200},CustomModelData:10000,display:{Name:'{"text":"火の魔法の本","color":"white","bold":false,"italic":false}'},HideFlags:255,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-127,Operation:0,UUID:[I;-975809435,407260728,-1676960922,-108240580]}],Enchantments:[{id:"minecraft:quick_charge",lvl:255s}]} 1

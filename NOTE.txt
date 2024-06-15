@@ -19,3 +19,9 @@
  先頭大文字のタグ(例: Entity) タグの種類 基本EntityかEnemy
 
  小文字.小文字(例: entity.liquid_mana) それの名前(id)
+
+
+# CustomModelData:
+ 10000..19999 : MagicBook
+
+ 90000..99999 : その他
