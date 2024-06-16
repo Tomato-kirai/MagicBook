@@ -1,3 +1,3 @@
 #> entity:liquid_mana/summon
 
-summon marker ~ ~ ~ {NoGravity:0b,Tags:["Entity","entity.liquid_mana"],Passengers:[{id:"minecraft:block_display",billboard:"fixed",Tags:["Entity","entity.liquid_mana_display"],brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.75f,-0.05f,-0.75f],scale:[1.5f,0.1f,1.5f]},block_state:{Name:"minecraft:blue_concrete_powder"}}]}
+summon armor_stand ~ ~ ~ {NoGravity:0b,Marker:1b,Invisible:1b,Tags:["Entity","entity.liquid_mana"],Passengers:[{id:"minecraft:block_display",billboard:"fixed",Tags:["Entity","entity.liquid_mana_display"],brightness:{sky:5,block:5},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.75f,-0.05f,-0.75f],scale:[1.5f,0.1f,1.5f]},block_state:{Name:"minecraft:light_blue_concrete_powder"}}]}
