@@ -16,3 +16,4 @@ scoreboard objectives add player.hud.status.health dummy
 
 # player/item
 scoreboard objectives add player.item.requiredManaAmount dummy
+scoreboard objectives add player.item.rate dummy
