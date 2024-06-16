@@ -1,0 +1,257 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:0b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:1b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:2b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:3b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:4b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:5b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:6b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:7b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:8b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:9b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:10b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:11b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:12b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:13b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:14b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:15b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:16b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:17b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:18b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:19b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:20b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:21b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:22b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:23b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:24b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:25b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:26b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:27b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:28b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:29b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:30b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:31b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:32b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:33b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:34b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:35b,tag:{ItemData:{Id:\"cbow_arrow\"}}}]}"
+      }
+    }
+  ]
+}
