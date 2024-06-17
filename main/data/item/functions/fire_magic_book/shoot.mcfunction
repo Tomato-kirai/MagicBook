@@ -10,4 +10,4 @@ execute anchored eyes positioned ^ ^ ^ run tp @e[type=marker,tag=entity.fire_mag
 
 playsound item.firecharge.use player @a ~ ~ ~ 1 2
 playsound item.flintandsteel.use player @a ~ ~ ~ 1 1
-playsound block.grindstone.use player @a ~ ~ ~ 1 0
+playsound block.grindstone.use player @a ~ ~ ~ 1 2
