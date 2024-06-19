@@ -6,3 +6,6 @@ execute if entity @s[type=block_display,tag=entity.liquid_mana_display] run func
 
 # fire_magic_book_fire
 execute if entity @s[type=marker,tag=entity.fire_magic_book_fire] run function entity:fire_magic_book_fire/main
+
+# burst_magic_book_ball
+execute if entity @s[type=marker,tag=entity.burst_magic_book_ball] run function entity:burst_magic_book_ball/main
