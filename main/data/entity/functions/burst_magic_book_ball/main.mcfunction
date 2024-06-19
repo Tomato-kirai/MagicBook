@@ -20,7 +20,7 @@ scoreboard players reset @s entity.fire_magic_book_fire.move
 
 # 動く時間
 scoreboard players add @s entity.fire_magic_book_fire.time 1
-execute if score @s entity.fire_magic_book_fire.time matches 10.. run tag @s add this.burst
+execute unless entity @s[tag=this.burst,tag=this.hit_block,tag=this.kill] if score @s entity.fire_magic_book_fire.time matches 10.. run tag @s add this.burst
 
 # きるします
 execute if entity @s[tag=this.kill] run function entity:burst_magic_book_ball/kill

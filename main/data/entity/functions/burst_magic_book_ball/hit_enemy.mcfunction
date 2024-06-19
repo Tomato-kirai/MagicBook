@@ -17,6 +17,6 @@ playsound block.note_block.bass player @a ~ ~ ~ 1 0
 playsound block.glass.break player @a ~ ~ ~ 2 2
 playsound block.glass.break player @a ~ ~ ~ 2 2
 
-playsound block.note_block.guitar player @a ~ ~ ~ 1 0.707107
-playsound block.note_block.guitar player @a ~ ~ ~ 1 0.890899
-playsound block.note_block.guitar player @a ~ ~ ~ 1 1.059463
+playsound block.note_block.banjo player @a ~ ~ ~ 1 0.707107
+playsound block.note_block.banjo player @a ~ ~ ~ 1 0.890899
+playsound block.note_block.banjo player @a ~ ~ ~ 1 1.059463
