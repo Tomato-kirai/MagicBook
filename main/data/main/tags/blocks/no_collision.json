@@ -6,6 +6,7 @@
       "minecraft:void_air",
       "minecraft:light",
       "minecraft:water",
+      "minecraft:barrier",
       "#minecraft:flowers",
       "#minecraft:pressure_plates",
       "#minecraft:buttons"
