@@ -1,5 +1,9 @@
 #> entity:burst_magic_book_ball/hit_block
 
+execute as @e[type=!player,tag=Enemy,tag=!world.hit,distance=..4] run damage @s 7 explosion by @p
+
+execute as @e[type=!player,tag=Enemy.hit,distance=..4] run tag @s add world.hit
+
 scoreboard players reset @s entity.fire_magic_book_fire.move
 scoreboard players reset @s entity.fire_magic_book_fire.time
 
