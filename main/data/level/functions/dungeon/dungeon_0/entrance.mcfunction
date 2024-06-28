@@ -8,4 +8,7 @@ playsound entity.illusioner.mirror_move player @a ~ ~ ~ 1 0
 playsound block.glass.break player @a ~ ~ ~ 1 0
 
 
-function level:dungeon/dungeon_0/init
+execute unless score $dungeon_0 level.dungeon.dungeonPlayers matches 1.. run function level:dungeon/dungeon_0/init
+
+
+tellraw @a [{"bold":false,"color":"yellow","italic":false,"selector":"@s"},{"bold":false,"color":"white","italic":false,"text":"が"},{"bold":false,"color":"aqua","italic":false,"text":"ダンジョン0"},{"bold":false,"color":"white","italic":false,"text":"に入りました"}]

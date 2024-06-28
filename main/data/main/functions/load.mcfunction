@@ -1,5 +1,7 @@
 #> main:load
 
+function level:load
+
 function player:load
 
 function entity:load
