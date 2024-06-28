@@ -18,7 +18,7 @@ scoreboard objectives add player.hud.status.health dummy
 scoreboard objectives add player.hud.status.itemGenerator dummy
 scoreboard objectives add player.hud.status.itemGeneratorConst dummy
  scoreboard players set $world1 player.hud.status.itemGeneratorConst 100
- scoreboard players set $world2 player.hud.status.itemGeneratorConst 2400
+ scoreboard players set $world2 player.hud.status.itemGeneratorConst 6001
 
 # player/item
 scoreboard objectives add player.item.requiredManaAmount dummy

@@ -2,4 +2,4 @@
 
 scoreboard players add @s player.status.itemGenerator 1
 
-execute if score @s player.status.itemGenerator matches 2400.. run function player:status/item_generator/gen
+execute if score @s player.status.itemGenerator matches 6000.. run function player:status/item_generator/gen
