@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_stained_glass"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+          "entity": "this",
+          "name": {
+            "text": "経験値",
+            "color": "aqua",
+            "bold": false,
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{ItemData:{Id:\"xp\"},Enchantments:[{}]}"
+        }
+      ]
+    }
+  ]
+}

@@ -14,3 +14,5 @@ execute as @e[tag=world.hit] run tag @s remove world.hit
 execute as @e[type=item,nbt={Item:{tag:{ItemData:{Id:"cbow_arrow"}}}}] run kill @s
 
 execute as @e[type=item,nbt={Item:{tag:{ItemData:{Id:"head_stoneb"}}}}] run kill @s
+
+execute as @e[type=experience_orb] run kill @s

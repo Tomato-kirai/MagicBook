@@ -1,5 +1,14 @@
 #> player:main
 
+# XP
+function player:status/xp/main
+
+# Level
+function player:status/level/main
+
+# Gold
+function player:status/gold/main
+
 # Mana
 function player:status/mana/main
 
