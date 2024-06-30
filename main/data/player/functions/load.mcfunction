@@ -1,8 +1,15 @@
 #> player:load
 
+# player/death
+scoreboard objectives add player.death.deathCount dummy
+scoreboard objectives add player.death.deathTime dummy
+
 # player/status
 scoreboard objectives add player.status.mana dummy
 scoreboard objectives add player.status.maxHealth dummy
+scoreboard objectives add player.status.maxHealthTemp dummy
+scoreboard objectives add player.status.movementSpeed dummy
+scoreboard objectives add player.status.movementSpeedTemp dummy
 scoreboard objectives add player.status.itemGenerator dummy
 scoreboard objectives add player.status.xp dummy
 scoreboard objectives add player.status.xpTemp dummy

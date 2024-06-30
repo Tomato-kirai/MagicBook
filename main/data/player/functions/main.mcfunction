@@ -9,11 +9,21 @@ function player:status/level/main
 # Gold
 function player:status/gold/main
 
+# Max Health
+function player:status/max_health/main
+
+# Movement Speed
+function player:status/movement_speed/main
+
 # Mana
 function player:status/mana/main
 
 # Item Gen
 function player:status/item_generator/main
+
+# Death
+execute if score @s player.death.deathCount matches 1.. run function player:death/death
+execute if score @s player.death.deathTime matches 1.. run function player:death/death_time
 
 # アクションバー表示
 execute if score @s player.hud.showActionbar matches 1 run function player:hud/actionbar/main
