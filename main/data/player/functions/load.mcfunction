@@ -1,7 +1,7 @@
 #> player:load
 
 # player/death
-scoreboard objectives add player.death.deathCount dummy
+scoreboard objectives add player.death.deathCount deathCount
 scoreboard objectives add player.death.deathTime dummy
 
 # player/status

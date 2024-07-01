@@ -23,7 +23,7 @@ function player:status/item_generator/main
 
 # Death
 execute if score @s player.death.deathCount matches 1.. run function player:death/death
-execute if score @s player.death.deathTime matches 1.. run function player:death/death_time
+execute if score @s player.death.deathTime matches 0.. run function player:death/death_time
 
 # アクションバー表示
 execute if score @s player.hud.showActionbar matches 1 run function player:hud/actionbar/main
