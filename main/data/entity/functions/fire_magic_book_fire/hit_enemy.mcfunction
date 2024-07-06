@@ -4,4 +4,6 @@ tag @e[type=marker,tag=entity.fire_magic_book_fire,sort=nearest,limit=1] add thi
 
 damage @s 5 on_fire by @p
 
+particle small_flame ~ ~ ~ 0.0 0.0 0.0 0.1 5 force @a
+
 tag @s add world.hit
