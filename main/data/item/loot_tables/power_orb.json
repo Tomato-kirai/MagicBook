@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+          "entity": "this",
+          "name": {
+            "text": "パワーオーブ",
+            "color": "white",
+            "bold": false,
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{ItemData:{Id:\"power_orb\"}}"
+        }
+      ]
+    }
+  ]
+}
