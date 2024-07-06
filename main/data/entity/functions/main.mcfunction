@@ -9,3 +9,17 @@ execute if entity @s[type=marker,tag=entity.fire_magic_book_fire] run function e
 
 # burst_magic_book_ball
 execute if entity @s[type=marker,tag=entity.burst_magic_book_ball] run function entity:burst_magic_book_ball/main
+
+# xp_item
+execute if entity @s[type=item,nbt={Item:{tag:{ItemData:{Id:"xp"}}}}] run function entity:xp_item/main
+
+# gold_item
+execute if entity @s[type=item,nbt={Item:{tag:{ItemData:{Id:"gold"}}}}] run function entity:gold_item/main
+
+
+# 邪魔なやつは消す
+execute if entity @s[type=item,nbt={Item:{tag:{ItemData:{Id:"cbow_arrow"}}}}] run kill @s
+
+execute if entity @s[type=item,nbt={Item:{tag:{ItemData:{Id:"head_stoneb"}}}}] run kill @s
+
+execute if entity @s[type=experience_orb] run kill @s
