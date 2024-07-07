@@ -48,3 +48,8 @@ execute if score @s player.item.requiredManaAmount matches 1.. unless predicate 
 execute if predicate player:item/has_cbow_arrow_inv run clear @s arrow{ItemData:{Id:"cbow_arrow"}}
 
 execute unless predicate player:item/selecting_magic_book if predicate player:item/has_cbow_arrow_offhand run clear @s arrow{ItemData:{Id:"cbow_arrow"}}
+
+
+# EXP
+xp set @s 0 points
+xp set @s 0 levels

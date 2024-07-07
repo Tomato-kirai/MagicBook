@@ -24,6 +24,9 @@ scoreboard objectives add player.status.gold dummy
 scoreboard objectives add player.status.goldTemp dummy
 scoreboard objectives add player.status.powerOrb dummy
 scoreboard objectives add player.status.powerOrbTemp dummy
+scoreboard objectives add player.status.powerUpCount dummy
+scoreboard objectives add player.status.powerUpCost dummy
+scoreboard objectives add player.status.powerUpCostMath dummy
 
 # player/hud
 scoreboard objectives add player.hud.showActionbar dummy
