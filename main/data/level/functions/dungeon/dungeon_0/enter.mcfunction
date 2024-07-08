@@ -6,8 +6,8 @@ execute in level:dungeon_0 positioned 0 1 0 rotated 0.0 0.0 run function level:t
 # 強制読み込みの呪文
 forceload add ~-128 ~-128 ~128 ~128
 
-# プレイヤーがいない場合のみモンスター召喚 必ず6t分猶予を設けること
-execute unless score $dungeon_0 level.dungeon.dungeonPlayers matches 1.. run schedule function level:dungeon/dungeon_0/init 6t
+# プレイヤーがいない場合のみモンスター召喚 必ず10t分猶予を設けること
+execute unless score $dungeon_0 level.dungeon.dungeonPlayers matches 1.. run schedule function level:dungeon/dungeon_0/init 10t
 
 # タイトルを表示
 function level:dungeon/setup/title_enter {str:"ダンジョン0"}
