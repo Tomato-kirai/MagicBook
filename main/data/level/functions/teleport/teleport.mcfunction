@@ -1,6 +1,6 @@
-#> level:dungeon/dungeon_0/exit_tp
+#> level:teleport/teleport
 
-tp @s ~ ~ ~ -179 0
+tp @s ~ ~ ~ ~ ~
 
 particle end_rod ~ ~1 ~ 0.5 0.5 0.5 0.25 60 force @a
 
