@@ -2,7 +2,7 @@
 
 execute at @s run tp @s ~ ~ ~ facing entity @p eyes
 
-execute at @s run summon area_effect_cloud ~ ~ ~ {Duration:6,Age:4,effects:[{id:"minecraft:resistance",amplifier:2b,duration:10,show_particles:1b}]}
+effect give @s resistance 1 255
 
 summon marker ^ ^0.4 ^0.7 {Tags:["this.motion"]}
 
