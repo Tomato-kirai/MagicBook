@@ -29,7 +29,7 @@ execute if score @s player.death.deathCount matches 1.. run function player:deat
 execute if score @s player.death.deathTime matches 0.. run function player:death/death_time
 
 # 溺れるよ
-execute if score @s player.drown.walkOnWater matches 1.. run function player:drown/main
+execute if score @s[gamemode=adventure] player.drown.walkOnWater matches 1.. run function player:drown/main
 execute if score @s player.drown.walkUnderWater matches 1.. run function player:drown/main
 execute if score @s player.drown.drownTime matches 1.. unless block ~ ~ ~ water unless block ~ ~-0.25 ~ #main:no_collision run scoreboard players reset @s player.drown.drownTime
 
