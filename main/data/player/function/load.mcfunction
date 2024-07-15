@@ -7,6 +7,7 @@ scoreboard objectives add player.death.deathTime dummy
 # player/drown
 scoreboard objectives add player.drown.walkOnWater custom:walk_on_water_one_cm
 scoreboard objectives add player.drown.walkUnderWater custom:walk_under_water_one_cm
+scoreboard objectives add player.drown.swim custom:swim_one_cm
 scoreboard objectives add player.drown.drownTime dummy
 
 # player/status
