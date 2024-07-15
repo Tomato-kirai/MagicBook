@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "text": "バーストマジックブック",
+                "color": "white",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:fire_resistant": {},
+                "minecraft:custom_model_data": 10000,
+                "minecraft:custom_data": "{item:{magic_book:1b,id:\"burst_magic_book\",mana_required:1b,required_mana_amount:200,rate:30}}",
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "attack_speed",
+                      "type": "minecraft:generic.attack_speed",
+                      "amount": -100,
+                      "operation": "add_value",
+                      "slot": "any"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 2147483647
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
