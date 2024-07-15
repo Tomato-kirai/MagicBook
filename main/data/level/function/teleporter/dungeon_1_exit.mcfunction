@@ -1,0 +1,1 @@
+execute as @p[distance=..2] in level:dungeon_1 positioned 0 3 0 run function level:dungeon/dungeon_1/exit

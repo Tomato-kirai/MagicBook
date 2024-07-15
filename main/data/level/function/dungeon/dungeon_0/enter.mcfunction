@@ -7,4 +7,4 @@ execute in level:dungeon_0 positioned 0 1 0 rotated 0.0 0.0 run function level:t
 function level:dungeon/dungeon_0/init_dungeon
 
 # タイトルを表示
-function level:dungeon/setup/title_enter {str:"ダンジョン0"}
+function level:dungeon/setup/title_enter {str:"山ノ下"}

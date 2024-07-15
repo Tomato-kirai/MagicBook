@@ -1,0 +1,3 @@
+execute unless score @s player.hud.showActionbar matches 91 run scoreboard players set @s player.hud.showActionbar 91
+
+title @s actionbar [{"text":"入場料 ","color":"green","bold":false,"italic":false},{"text":"120G  ","color":"gold","bold":false,"italic":false},{"text":"Gold ","color":"green","bold":false,"italic":false},{"score":{"name":"@s","objective":"player.hud.status.gold"},"color":"gold","bold":false,"italic":false},{"text":"G","color":"gold","bold":false,"italic":false}]
