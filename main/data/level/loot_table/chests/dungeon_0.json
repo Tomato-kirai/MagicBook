@@ -5,8 +5,8 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "item:xp",
-          "function": [
+          "value": "item:xp",
+          "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
@@ -23,8 +23,8 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "item:gold",
-          "function": [
+          "value": "item:gold",
+          "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
@@ -42,7 +42,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bread",
-          "function": [
+          "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
@@ -55,7 +55,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:carrot",
-          "function": [
+          "functions": [
             {
               "function": "minecraft:set_count",
               "count": {

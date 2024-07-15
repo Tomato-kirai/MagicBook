@@ -7,8 +7,7 @@ execute as @e[type=!player,tag=Enemy.hit,distance=..4] run tag @s add world.hit
 scoreboard players reset @s entity.fire_magic_book_fire.move
 scoreboard players reset @s entity.fire_magic_book_fire.time
 
-particle dust 0.561 0 0 1 ~ ~ ~ 1 1 1 1 200 force @a
-particle dust 1 0.569 0 0.8 ~ ~ ~ 1 1 1 1 100 force @a
+particle dust{color:[1.000,0.000,0.000],scale:1} ~ ~ ~ 1 1 1 1 100 force @a
 particle lava ~ ~ ~ 0.5 0.5 0.5 1 5 force @a
 particle explosion ~ ~ ~ 0 0 0 0 5 force @a
 

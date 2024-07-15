@@ -8,7 +8,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "item:gold"
+          "value": "item:gold"
         }
       ]
     },
@@ -17,7 +17,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "item:xp"
+          "value": "item:xp"
         }
       ]
     }

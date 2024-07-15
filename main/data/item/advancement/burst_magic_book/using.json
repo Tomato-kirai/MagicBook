@@ -3,22 +3,11 @@
     "requirement": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "mainhand": {
-                  "items": [
-                    "minecraft:crossbow"
-                  ],
-                  "nbt": "{ItemData:{MagicBook:1b,Id:\"burst_magic_book\"}}"
-                }
-              }
-            }
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{item:{id:\"burst_magic_book\"}}"
           }
-        ]
+        }
       }
     }
   },

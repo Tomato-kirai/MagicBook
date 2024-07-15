@@ -2,7 +2,7 @@
 
 scoreboard players operation @s player.status.mana -= @s player.item.requiredManaAmount
 
-execute store result score @s player.item.rate run data get entity @s SelectedItem.tag.ItemData.Rate 1
+execute store result score @s player.item.rate run data get entity @s SelectedItem.components.minecraft:custom_data.item.rate 1
 
 summon marker ~ ~ ~ {Tags:["Entity","entity.fire_magic_book_fire"]}
 execute rotated as @s positioned ^ ^ ^ run tp @e[type=marker,tag=entity.fire_magic_book_fire,sort=nearest,limit=1] ~ ~ ~ ~ ~

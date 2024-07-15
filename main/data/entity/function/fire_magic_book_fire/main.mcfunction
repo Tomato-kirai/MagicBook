@@ -11,7 +11,7 @@ execute unless block ^ ^ ^0.5 #main:no_collision run tag @s add this.kill
 execute if block ^ ^ ^0.5 water run tag @s add this.kill
 
 # エフェクト
-particle dust 1 0.482 0 0.5 ~ ~-0.35 ~ 0.1 0.1 0.1 1 10 force @a[distance=2..]
+particle dust{color:[1.000,0.604,0.090],scale:0.7} ~ ~-0.18 ~ 0.0 0.0 0.0 1 10 force @a[distance=2..]
 playsound entity.blaze.burn player @a ~ ~ ~ 0.1 2
 
 # 動く数
