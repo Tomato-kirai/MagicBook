@@ -4,6 +4,9 @@
 execute store result score $dungeon_0 level.dungeon.dungeonPlayers if entity @a[predicate=level:is_in_dungeon_0]
 execute store result score $dungeon_1 level.dungeon.dungeonPlayers if entity @a[predicate=level:is_in_dungeon_1]
 
+# MAINs
+execute if score $dungeon_1 level.dungeon.dungeonPlayers matches 1.. in level:dungeon_1 run function level:dungeon/dungeon_1/main
+
 # TELEPORTER
 execute in minecraft:overworld positioned 0 3 -30 run function level:teleporter/power_up_room_entrance/main
 execute in minecraft:overworld positioned 0 -60 -22 run function level:teleporter/power_up_room_exit/main
