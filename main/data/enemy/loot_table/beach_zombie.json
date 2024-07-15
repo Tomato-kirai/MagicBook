@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 10,
+        "max": 15
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:gold"
+        }
+      ]
+    },
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "item:xp"
+        }
+      ]
+    }
+  ]
+}
