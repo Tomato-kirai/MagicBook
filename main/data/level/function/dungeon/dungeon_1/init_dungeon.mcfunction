@@ -5,4 +5,4 @@ execute if score $dungeon_1 level.dungeon.dungeonPlayers matches 1.. as @e[type=
 
 
 # チェスト召喚
-execute unless score $dungeon_1 level.dungeon.dungeonPlayers matches 1.. as @e[type=marker,nbt={data:{level:"Level.dungeon_1",name:"loot_chest"}}] at @s run function level:dungeon/setup/loot_chest with entity @s data
+#execute unless score $dungeon_1 level.dungeon.dungeonPlayers matches 1.. as @e[type=marker,nbt={data:{level:"Level.dungeon_1",name:"loot_chest"}}] at @s run function level:dungeon/setup/loot_chest with entity @s data
