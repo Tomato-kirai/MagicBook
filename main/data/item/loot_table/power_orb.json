@@ -5,15 +5,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_nugget"
+          "name": "minecraft:heart_of_the_sea"
         }
       ],
-      "functions": [
+      "function": [
         {
           "function": "minecraft:set_name",
           "entity": "this",
           "name": {
-            "text": "ゴールド",
+            "text": "パワーオーブ",
             "color": "white",
             "bold": false,
             "italic": false
@@ -21,7 +21,7 @@
         },
         {
           "function": "minecraft:set_nbt",
-          "tag": "{ItemData:{Id:\"gold\"}}"
+          "tag": "{ItemData:{Id:\"power_orb\"}}"
         }
       ]
     }

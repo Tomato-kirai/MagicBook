@@ -5,23 +5,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:heart_of_the_sea"
+          "name": "minecraft:lime_stained_glass"
         }
       ],
-      "functions": [
+      "function": [
         {
           "function": "minecraft:set_name",
           "entity": "this",
           "name": {
-            "text": "パワーオーブ",
-            "color": "white",
+            "text": "経験値",
+            "color": "aqua",
             "bold": false,
             "italic": false
           }
         },
         {
           "function": "minecraft:set_nbt",
-          "tag": "{ItemData:{Id:\"power_orb\"}}"
+          "tag": "{ItemData:{Id:\"xp\"},Enchantments:[{}]}"
         }
       ]
     }

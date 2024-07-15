@@ -5,23 +5,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:lime_stained_glass"
+          "name": "minecraft:gold_nugget"
         }
       ],
-      "functions": [
+      "function": [
         {
           "function": "minecraft:set_name",
           "entity": "this",
           "name": {
-            "text": "経験値",
-            "color": "aqua",
+            "text": "ゴールド",
+            "color": "white",
             "bold": false,
             "italic": false
           }
         },
         {
           "function": "minecraft:set_nbt",
-          "tag": "{ItemData:{Id:\"xp\"},Enchantments:[{}]}"
+          "tag": "{ItemData:{Id:\"gold\"}}"
         }
       ]
     }

@@ -4,45 +4,24 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "name": "item:xp",
-          "functions": [
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 1,
+          "function": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 5,
-                "max": 10
+                "min": 1,
+                "max": 2
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "item:gold",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 6,
-                "max": 12
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread",
-          "functions": [
+          "name": "minecraft:cooked_chicken",
+          "weight": 2,
+          "function": [
             {
               "function": "minecraft:set_count",
               "count": {
@@ -54,13 +33,28 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:carrot",
-          "functions": [
+          "name": "minecraft:bread",
+          "weight": 5,
+          "function": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "weight": 3,
+          "function": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 4,
-                "max": 12
+                "max": 16
               }
             }
           ]
