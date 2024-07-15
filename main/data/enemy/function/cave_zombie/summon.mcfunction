@@ -1,3 +1,3 @@
 #> enemy:cave_zombie/summon
 
-$summon zombie ~ ~ ~ {DeathLootTable:"enemy:cave_zombie",Health:20f,IsBaby:0b,CanBreakDoors:0b,Tags:["Enemy","enemy.cave_zombie","$(level)"],ArmorItems:[{},{},{},{id:"minecraft:stone_button",count:1,components:{"minecraft:custom_data":{item:{id:"head_stoneb"}}}}],Attributes:[{Name:generic.max_health,Base:20}]}
+$summon zombie ~ ~ ~ {DeathLootTable:"enemy:cave_zombie",Health:20f,IsBaby:0b,CanBreakDoors:0b,Tags:["Enemy","enemy.cave_zombie","$(level)"],CustomName:'{"bold":false,"color":"white","italic":false,"text":"腐れ死体と木のツルハシ"}',ArmorItems:[{},{},{},{id:"minecraft:stone_button",count:1,components:{"minecraft:custom_data":{item:{id:"head_stoneb"}}}}],HandItems:[{id:"minecraft:wooden_pickaxe",count:1,components:{"minecraft:custom_data":{{item:{id:"head_stoneb"}}}}},{}],Attributes:[{Name:generic.max_health,Base:20}]}
