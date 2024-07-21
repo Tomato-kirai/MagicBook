@@ -55,3 +55,7 @@ scoreboard objectives add player.hud.status.gold dummy
 # player/item
 scoreboard objectives add player.item.requiredManaAmount dummy
 scoreboard objectives add player.item.rate dummy
+
+# player/talked_to_villager
+
+scoreboard objectives add player.talkedToVillager custom:talked_to_villager

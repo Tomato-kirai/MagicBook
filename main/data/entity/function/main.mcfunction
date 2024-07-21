@@ -16,6 +16,9 @@ execute if entity @s[type=item,nbt={Item:{components:{"minecraft:custom_data":{i
 # gold_item
 execute if entity @s[type=item,nbt={Item:{components:{"minecraft:custom_data":{item:{id:"gold"}}}}}] run function entity:gold_item/main
 
+# shop_owner
+execute if entity @s[type=villager,tag=ShopOwner] run function level:overworld/__shop_owner__/main
+
 
 # 邪魔なやつは消す
 #execute if entity @s[type=item,nbt={Item:{tag:{ItemData:{Id:"cbow_arrow"}}}}] run kill @s

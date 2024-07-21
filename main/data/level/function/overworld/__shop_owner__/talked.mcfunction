@@ -1,0 +1,1 @@
+execute if predicate level:overworld/shop_owner/talked_to_shop_owner/id_1 run function level:overworld/shop_owner_1/talked
