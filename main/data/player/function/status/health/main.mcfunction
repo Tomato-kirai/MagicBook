@@ -1,0 +1,1 @@
+execute store result score @s player.status.health run data get entity @s Health

@@ -12,6 +12,7 @@ scoreboard objectives add player.drown.drownTime dummy
 
 # player/status
 scoreboard objectives add player.status.mana dummy
+scoreboard objectives add player.status.health dummy
 scoreboard objectives add player.status.maxHealth dummy
 scoreboard objectives add player.status.maxHealthTemp dummy
 scoreboard objectives add player.status.movementSpeed dummy
@@ -38,6 +39,7 @@ scoreboard objectives add player.hud.status.mana dummy
  scoreboard players set $world2 player.hud.status.manaConst 1000
 
 scoreboard objectives add player.hud.status.health dummy
+scoreboard objectives add player.hud.status.maxHealth dummy
 
 scoreboard objectives add player.hud.status.itemGenerator dummy
 scoreboard objectives add player.hud.status.itemGeneratorConst dummy

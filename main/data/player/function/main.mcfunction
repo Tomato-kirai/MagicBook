@@ -9,6 +9,9 @@ function player:status/level/main
 # Gold
 function player:status/gold/main
 
+# Health
+function player:status/health/main
+
 # Max Health
 function player:status/max_health/main
 
