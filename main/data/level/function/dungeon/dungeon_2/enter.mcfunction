@@ -5,7 +5,7 @@ execute in level:dungeon_2 positioned 0 1 0 rotated 0.0 0.0 run function level:t
 function level:dungeon/dungeon_2/init_dungeon
 
 # タイトルを表示
-function level:dungeon/setup/title_enter {str:"不明な海上基地"}
+function level:dungeon/setup/title_enter {str:"閉鎖された海上基地"}
 
 # 金を取る
 scoreboard players remove @s player.status.gold 200
