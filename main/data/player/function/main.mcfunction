@@ -19,7 +19,7 @@ function player:status/movement_speed/main
 function player:status/mana/main
 
 # Item Gen
-function player:status/item_generator/main
+#function player:status/item_generator/main
 
 # Power Orb
 function player:status/power_orb/main
