@@ -17,7 +17,7 @@ execute in level:dungeon_0 positioned -52 24 45 run function level:teleporter/du
 execute in minecraft:overworld positioned 51 0 38 run function level:teleporter/dungeon_1_entrance/main
 execute in level:dungeon_1 positioned -8 1 83 run function level:teleporter/dungeon_1_exit
 
-execute in minecraft:overworld positioned 112 -1 132 run function level:teleporter/dungeon_2_entrance/main
+execute in minecraft:overworld positioned 112 1 132 run function level:teleporter/dungeon_2_entrance/main
 #execute in level:dungeon_2 positioned x y z run function level:teleporter/dungeon_2_exit
 
 # POWER-UP ROOM
