@@ -4,4 +4,4 @@ execute at @s run playsound minecraft:entity.player.hurt_drown player @s ~ ~ ~ 1
 
 damage @s 1048576 drown
 
-scoreboard players reset @s player.drown.drownTime
+function player:drown/reset
