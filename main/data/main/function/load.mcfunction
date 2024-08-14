@@ -9,3 +9,5 @@ function entity:load
 function enemy:load
 
 function item:load
+
+function shop:load

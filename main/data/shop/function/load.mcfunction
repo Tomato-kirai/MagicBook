@@ -1,0 +1,1 @@
+scoreboard objectives add shop.player.hasSlotItem dummy

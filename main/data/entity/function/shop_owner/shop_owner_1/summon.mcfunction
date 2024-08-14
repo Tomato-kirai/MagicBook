@@ -1,0 +1,1 @@
+summon villager -11 6 -17 {Invulnerable:1b,NoAI:1b,Rotation:[0F,0F],Tags:["Entity","ShopOwner","entity.shop_owner_1"],CustomName:'{"bold":false,"color":"white","italic":false,"text":"農家のおっさん"}',VillagerData:{profession:"minecraft:farmer",type:"minecraft:plains"},Offers:{Recipes:[]}}

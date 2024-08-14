@@ -42,10 +42,13 @@ execute if score @s player.hud.showActionbar matches 1 run function player:hud/a
 execute if score @s player.hud.showActionbar matches 2 unless predicate main:is_in_overworld run scoreboard players set @s player.hud.showActionbar 1
 
 # talked_to_villager
-execute if score @s player.talkedToVillager matches 1.. run function player:talked_to_villager/talked
-execute if score @s level.shop_owner.cooltime matches 1.. run scoreboard players remove @s level.shop_owner.cooltime 1
-execute if score @s level.shop_owner.cooltime matches ..0 run scoreboard players reset @s level.shop_owner.cooltime
-execute if entity @s[tag=HasCatalog] if entity @e[distance=4..,tag=ShopOwner] run function player:talked_to_villager/clear_catalog
+#execute if score @s player.talkedToVillager matches 1.. run function player:talked_to_villager/talked
+#execute if score @s level.shop_owner.cooltime matches 1.. run scoreboard players remove @s level.shop_owner.cooltime 1
+#execute if score @s level.shop_owner.cooltime matches ..0 run scoreboard players reset @s level.shop_owner.cooltime
+#execute if entity @s[tag=HasGoldOfPurchase] if entity @e[distance=2.5..,tag=ShopOwner] run function player:talked_to_villager/clear_gold
+
+# ショップ
+function shop:player/main
 
 ## アイテム持ってる
 # Main

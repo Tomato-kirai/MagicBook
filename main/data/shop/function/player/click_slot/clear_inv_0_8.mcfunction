@@ -1,0 +1,9 @@
+execute if entity @s[nbt={Inventory:[{Slot:0b,components:{"minecraft:custom_data":{item:{shop_slot:1b}}}}]}] run item replace entity @s container.0 with air
+execute if entity @s[nbt={Inventory:[{Slot:1b,components:{"minecraft:custom_data":{item:{shop_slot:1b}}}}]}] run item replace entity @s container.1 with air
+execute if entity @s[nbt={Inventory:[{Slot:2b,components:{"minecraft:custom_data":{item:{shop_slot:1b}}}}]}] run item replace entity @s container.2 with air
+execute if entity @s[nbt={Inventory:[{Slot:3b,components:{"minecraft:custom_data":{item:{shop_slot:1b}}}}]}] run item replace entity @s container.3 with air
+execute if entity @s[nbt={Inventory:[{Slot:4b,components:{"minecraft:custom_data":{item:{shop_slot:1b}}}}]}] run item replace entity @s container.4 with air
+execute if entity @s[nbt={Inventory:[{Slot:5b,components:{"minecraft:custom_data":{item:{shop_slot:1b}}}}]}] run item replace entity @s container.5 with air
+execute if entity @s[nbt={Inventory:[{Slot:6b,components:{"minecraft:custom_data":{item:{shop_slot:1b}}}}]}] run item replace entity @s container.6 with air
+execute if entity @s[nbt={Inventory:[{Slot:7b,components:{"minecraft:custom_data":{item:{shop_slot:1b}}}}]}] run item replace entity @s container.7 with air
+execute if entity @s[nbt={Inventory:[{Slot:8b,components:{"minecraft:custom_data":{item:{shop_slot:1b}}}}]}] run item replace entity @s container.8 with air
