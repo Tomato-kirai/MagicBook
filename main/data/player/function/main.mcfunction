@@ -48,7 +48,7 @@ execute if score @s player.hud.showActionbar matches 2 unless predicate main:is_
 #execute if entity @s[tag=HasGoldOfPurchase] if entity @e[distance=2.5..,tag=ShopOwner] run function player:talked_to_villager/clear_gold
 
 # ショップ
-function shop:player/main
+function shop:core/player/main
 
 ## アイテム持ってる
 # Main

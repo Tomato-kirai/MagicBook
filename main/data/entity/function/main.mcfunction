@@ -20,7 +20,7 @@ execute if entity @s[type=item,nbt={Item:{components:{"minecraft:custom_data":{i
 execute if entity @s[type=villager,tag=ShopOwner] run function entity:shop_owner/main
 
 # shop_inv
-execute if entity @s[tag=ShopInv] run function shop:shop_inv/main
+execute if entity @s[tag=ShopInv] run function shop:core/shop_inv/main
 
 # 邪魔なやつは消す
 #execute if entity @s[type=item,nbt={Item:{tag:{ItemData:{Id:"cbow_arrow"}}}}] run kill @s
