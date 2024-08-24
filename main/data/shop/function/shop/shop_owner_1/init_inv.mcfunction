@@ -1,0 +1,3 @@
+item replace entity @s container.11 with cookie[lore=['{"bold":false,"color":"gold","italic":false,"text":"10G"}'],custom_data={item:{id:"cookie",shop_slot:1b,buyable:1b,price:10,loot_table:"shop:shop/shop_owner_1/cookie_x16"}}] 16
+item replace entity @s container.13 with bread[lore=['{"bold":false,"color":"gold","italic":false,"text":"10G"}'],custom_data={item:{id:"bread",shop_slot:1b,buyable:1b,price:10,loot_table:"shop:shop/shop_owner_1/bread_x8"}}] 8
+item replace entity @s container.15 with chest[item_name='{"bold":false,"color":"white","italic":false,"text":"怪しい箱"}',lore=['{"bold":false,"color":"gold","italic":false,"text":"50G"}'],custom_data={item:{id:"suspicious_box_x1",shop_slot:1b,buyable:1b,price:50,loot_table:"shop:shop/shop_owner_1/suspicious_box_x1"}}] 1

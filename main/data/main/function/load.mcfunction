@@ -10,4 +10,4 @@ function enemy:load
 
 function item:load
 
-function shop:core/load
+function shop:load
