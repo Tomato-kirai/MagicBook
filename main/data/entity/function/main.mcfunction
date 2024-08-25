@@ -10,6 +10,10 @@ execute if entity @s[type=marker,tag=entity.fire_magic_book_fire] run function e
 # burst_magic_book_ball
 execute if entity @s[type=marker,tag=entity.burst_magic_book_ball] run function entity:burst_magic_book_ball/main
 
+# tomato_juice
+execute if entity @s[type=armor_stand,tag=entity.tomato_juice] run function entity:tomato_juice/main
+
+
 # xp_item
 execute if entity @s[type=item,nbt={Item:{components:{"minecraft:custom_data":{item:{id:"xp"}}}}}] run function entity:xp_item/main
 
