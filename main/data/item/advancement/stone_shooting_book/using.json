@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{item:{id:\"stone_shooting_book\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:stone_shooting_book/using"
+  }
+}

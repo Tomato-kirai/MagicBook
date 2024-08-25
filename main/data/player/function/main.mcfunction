@@ -27,6 +27,9 @@ function player:status/mana/main
 # Power Orb
 function player:status/power_orb/main
 
+# Item
+function item:player
+
 # Death
 execute if score @s player.death.deathCount matches 1.. run function player:death/death
 execute if score @s player.death.deathTime matches 0.. run function player:death/death_time

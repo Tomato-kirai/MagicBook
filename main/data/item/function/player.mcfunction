@@ -1,0 +1,1 @@
+execute if score @s item.stone_shooting_book.delay matches 1.. run function item:stone_shooting_book/main

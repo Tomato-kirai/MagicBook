@@ -10,6 +10,9 @@ execute if entity @s[type=marker,tag=entity.fire_magic_book_fire] run function e
 # burst_magic_book_ball
 execute if entity @s[type=marker,tag=entity.burst_magic_book_ball] run function entity:burst_magic_book_ball/main
 
+# stone_shooting_book_stone
+execute if entity @s[type=block_display,tag=entity.stone_shooting_book_stone] run function entity:stone_shooting_book_stone/main
+
 # tomato_juice
 execute if entity @s[type=armor_stand,tag=entity.tomato_juice] run function entity:tomato_juice/main
 
