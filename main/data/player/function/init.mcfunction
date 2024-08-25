@@ -6,7 +6,7 @@ scoreboard players set @s player.status.maxHealth 20
 scoreboard players set @s player.status.movementSpeed 100
 scoreboard players set @s player.status.xpMax 32
 scoreboard players set @s player.status.level 0
-scoreboard players set @s player.status.gold 0
+scoreboard players set @s player.status.gold 10
 scoreboard players set @s player.status.powerOrb 0
 scoreboard players reset @s player.status.powerUpCount
 scoreboard players reset @s player.status.powerUpCost
