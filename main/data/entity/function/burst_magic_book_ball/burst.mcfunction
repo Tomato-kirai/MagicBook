@@ -11,8 +11,8 @@ particle dust{color:[1.000,0.000,0.000],scale:1} ~ ~ ~ 1 1 1 1 100 force @a
 particle lava ~ ~ ~ 0.5 0.5 0.5 1 5 force @a
 particle explosion ~ ~ ~ 0 0 0 0 5 force @a
 
-playsound entity.firework_rocket.blast player @a ~ ~ ~ 1.25 0
-playsound block.note_block.basedrum player @a ~ ~ ~ 2 0
-playsound block.note_block.bass player @a ~ ~ ~ 1 0
+playsound entity.firework_rocket.blast player @a[distance=..64] ~ ~ ~ 1.25 0
+playsound block.note_block.basedrum player @a[distance=..64] ~ ~ ~ 2 0
+playsound block.note_block.bass player @a[distance=..64] ~ ~ ~ 1 0
 
 kill @s
