@@ -8,7 +8,8 @@ execute as @e[dx=0,type=!player,tag=!world.hit,tag=Enemy,sort=nearest,limit=1] p
 execute unless block ~ ~ ~ #main:no_collision run tag @s add this.kill
 
 # エフェクト
-particle enchant ~ ~ ~ 0.4 0.4 0.4 0.4 1 force @a
+particle enchant ~ ~ ~ 0.4 0.4 0.4 0.5 1 force @a
+#particle ash ~ ~ ~ 0.0 0.0 0.0 1 1 force @a
 
 # 動く数
 scoreboard players add @s entity.fire_magic_book_fire.move 1
