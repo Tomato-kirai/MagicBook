@@ -2,6 +2,7 @@
 
 damage @s 7 generic by @p
 
-particle block{block_state:"cobblestone"} ~ ~ ~ 0.5 0.5 0.5 1 50 force @a
+particle block{block_state:"cobblestone"} ~ ~ ~ 0.5 0.5 0.5 1 80 force @a
+particle crit ~ ~ ~ 0.5 0.5 0.5 0.4 30 force @a
 
 tag @s add world.hit
