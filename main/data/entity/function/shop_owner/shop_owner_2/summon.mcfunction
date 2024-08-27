@@ -1,0 +1,1 @@
+summon villager -3 4 92 {Invulnerable:1b,NoAI:1b,Rotation:[-180F,0F],Tags:["Entity","ShopOwner","entity.shop_owner_2"],CustomName:'{"bold":false,"color":"white","italic":false,"text":"鉱山の魔法使い"}',VillagerData:{profession:"minecraft:weaponsmith",type:"minecraft:plains"},Offers:{Recipes:[]}}
