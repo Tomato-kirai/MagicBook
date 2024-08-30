@@ -1,8 +1,11 @@
+# 初期化
+#execute unless entity @s[tag=Initialized] run function entity:stone_shooting_book_stone/init
+
 # TP
 tp @s ^ ^ ^0.1
 
 # 敵の当たり判定
-execute as @e[dx=0,type=!player,tag=!world.hit,tag=Enemy,sort=nearest,limit=1] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] positioned ~0.5 ~0.5 ~0.5 run function entity:stone_shooting_book_stone/hit_enemy
+execute as @e[dx=0,type=!player,tag=Enemy,sort=nearest,limit=1] unless score @s entity.attackHitCooltime matches 1.. positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] positioned ~0.5 ~0.5 ~0.5 run function entity:stone_shooting_book_stone/hit_enemy
 
 # ブロックの当たり判定
 execute unless block ~ ~ ~ #main:no_collision run tag @s add this.kill

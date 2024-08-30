@@ -4,7 +4,7 @@
 tp @s ^ ^ ^0.06
 
 # 敵の当たり判定
-execute unless entity @s[tag=this.burst,tag=this.hit_block,tag=this.kill] as @e[dx=0,type=!player,tag=!world.hit,tag=Enemy,sort=nearest,limit=1] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] positioned ~0.5 ~0.5 ~0.5 run function entity:burst_magic_book_ball/hit_enemy
+execute unless entity @s[tag=this.burst,tag=this.hit_block,tag=this.kill] as @e[dx=0,type=!player,tag=Enemy,sort=nearest,limit=1] unless score @s entity.attackHitCooltime matches 1.. positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] positioned ~0.5 ~0.5 ~0.5 run function entity:burst_magic_book_ball/hit_enemy
 
 # ブロックの当たり判定
 execute unless block ^ ^ ^0.5 #main:no_collision run tag @s[tag=!this.kill] add this.hit_block

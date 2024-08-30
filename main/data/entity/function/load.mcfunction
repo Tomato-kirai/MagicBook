@@ -9,3 +9,5 @@ scoreboard objectives add entity.tomato_juice.life dummy
 
 scoreboard objectives add entity.xp_item.life dummy
 scoreboard objectives add entity.gold_item.life dummy
+
+scoreboard objectives add entity.attackHitCooltime dummy

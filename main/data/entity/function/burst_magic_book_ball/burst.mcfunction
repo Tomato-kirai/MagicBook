@@ -1,8 +1,8 @@
 #> entity:burst_magic_book_ball/burst
 
-execute as @e[type=!player,tag=Enemy,tag=!world.hit,distance=..4] run damage @s 9 explosion by @p
+execute as @e[type=!player,tag=Enemy,distance=..4] unless score @s entity.attackHitCooltime matches 1.. run damage @s 9 explosion by @p
 
-execute as @e[type=!player,tag=Enemy.hit,distance=..4] run tag @s add world.hit
+execute as @e[type=!player,tag=Enemy.hit,distance=..4] run scoreboard players set @s entity.attackHitCooltime 1
 
 scoreboard players reset @s entity.fire_magic_book_fire.move
 scoreboard players reset @s entity.fire_magic_book_fire.time

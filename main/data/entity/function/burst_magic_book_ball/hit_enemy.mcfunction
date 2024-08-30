@@ -4,7 +4,7 @@ tag @e[type=marker,tag=entity.burst_magic_book_ball,sort=nearest,limit=1] add th
 
 damage @s 10 on_fire by @p
 
-tag @s add world.hit
+scoreboard players set @s entity.attackHitCooltime 1
 
 particle explosion ~ ~ ~ 0 0 0 0 5 force @a
 particle lava ~ ~ ~ 0.5 0.5 0.5 1 5 force @a
